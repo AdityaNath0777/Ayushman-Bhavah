@@ -1,0 +1,67 @@
+  /* CSS Reset */
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  html {
+      scroll-behavior: smooth;
+      font-family: Helvetica, sans-serif, Arial;
+  }
+
+
+  /* Navigation */
+  .navigation {
+      background-color: #3B3B98;
+      width: 100%;
+  }
+
+  .navbar .nav-link {
+      color: white;
+  }
+
+
+  /* Cover Page */
+  .cover-column {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+
+  .cover-img {
+      width: fit-content;
+      aspect-ratio: 4/3;
+      contain: content;
+  }
+
+  .my-color-bg {
+      background: #3B3B98 !important;
+      border: 2px solid #3B3B98;
+  }
+
+  .my-btn:hover {
+      background: #222257 !important;
+  }
+
+
+  /* Footer */
+  footer {
+      /* background-color: #3B3B9; */
+
+      color: white;
+      padding: 20px 0;
+  }
+
+  .dark-icon {
+      color: #fff;
+      font-size: 1.1em;
+      transition: transform 0.2s ease-in-out;
+  }
+
+  .dark-icon:hover {
+      color: rgb(216, 205, 205);
+      transform: scale(1.2);
+  }
