@@ -5,7 +5,7 @@
       "name": "Hair serum",
       "image": "images/hair1.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "price": "$19.99",
+      "price": "₹119.99",
       "keywords": ["hair", "beautiful"]
     },
     {
@@ -13,7 +13,7 @@
       "name": "skin tone",
       "image": "images/skin1.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "price": "$24.99",
+      "price": "₹124.99",
       "keywords": ["skin", "beautiful"]
     },
     {
@@ -21,7 +21,7 @@
       "name": "migraine relief",
       "image": "images/head1.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "price": "$14.99",
+      "price": "₹114.99",
       "keywords": ["headache"]
     },
     {
@@ -29,7 +29,7 @@
       "name": "easy digestion",
       "image": "images/st1.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "price": "$29.99",
+      "price": "₹129.99",
       "keywords": ["stomach", "stomach ache"]
     },
     {
@@ -37,14 +37,14 @@
       "name": "fair and clum",
       "image": "images/skin2.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "price": "$39.99",
+      "price": "₹339.99",
       "keywords": ["skin", "beautiful"]
     },
     {
       "id": "6",
       "name": "hair oil",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "price": "$39.99",
+      "price": "₹139.99",
       "image": "images/hair2.jpg",
       "keywords": ["hair", "beautiful"]
     },
@@ -52,7 +52,7 @@
       "id": "7",
       "name": "mast pachan",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "price": "$49.99",
+      "price": "₹149.99",
       "image": "images/st2.jpg",
       "keywords": ["stomach", "stomach ache"]
     },
@@ -60,7 +60,7 @@
       "id": "8",
       "name": "khich khich door",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "price": "$59.99",
+      "price": "₹259.99",
       "image": "images/head2.jpg",
       "keywords": ["headache"]
     }
