@@ -1,0 +1,68 @@
+{
+  "featuredProducts": [
+    {
+      "id": "1",
+      "name": "Hair serum",
+      "image": "images/hair1.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "$19.99",
+      "keywords": ["hair", "beautiful"]
+    },
+    {
+      "id": "2",
+      "name": "skin tone",
+      "image": "images/skin1.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "$24.99",
+      "keywords": ["skin", "beautiful"]
+    },
+    {
+      "id": "3",
+      "name": "migraine relief",
+      "image": "images/head1.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "$14.99",
+      "keywords": ["headache"]
+    },
+    {
+      "id": "4",
+      "name": "easy digestion",
+      "image": "images/st1.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "$29.99",
+      "keywords": ["stomach", "stomach ache"]
+    },
+    {
+      "id": "5",
+      "name": "fair and clum",
+      "image": "images/skin2.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "$39.99",
+      "keywords": ["skin", "beautiful"]
+    },
+    {
+      "id": "6",
+      "name": "hair oil",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "$39.99",
+      "image": "images/hair2.jpg",
+      "keywords": ["hair", "beautiful"]
+    },
+    {
+      "id": "7",
+      "name": "mast pachan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "$49.99",
+      "image": "images/st2.jpg",
+      "keywords": ["stomach", "stomach ache"]
+    },
+    {
+      "id": "8",
+      "name": "khich khich door",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "$59.99",
+      "image": "images/head2.jpg",
+      "keywords": ["headache"]
+    }
+  ]
+}
