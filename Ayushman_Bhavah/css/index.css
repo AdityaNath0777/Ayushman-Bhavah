@@ -1,0 +1,65 @@
+  /* CSS Reset */
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  html {
+      scroll-behavior: smooth;
+      font-family: Helvetica, sans-serif, Arial;
+  }
+
+
+  /* Navigation */
+  /* .navigation {
+      background-color: #3B3B98;
+      width: 100%;
+  } */
+
+  /* Cover Page */
+  .cover-img {
+      width: fit-content;
+      aspect-ratio: 4/3;
+      contain: content;
+  }
+  header{
+      z-index: 100;
+  }
+  .my-heading-color {
+      color: #3B3B98;
+      font-weight: 700;
+  }
+
+  .my-color-bg {
+      background: #3B3B98 !important;
+      border: 2px solid #3B3B98;
+  }
+
+  .my-btn:hover {
+      background: #222257 !important;
+  }
+
+  .nearby-link:hover {
+      background-color: rgb(9, 122, 31);
+      /* color: gray; */
+  }
+
+  /* Footer */
+  footer {
+      /* background-color: #3B3B9; */
+
+      color: white;
+      padding: 20px 0;
+  }
+
+  .dark-icon {
+      color: #fff;
+      font-size: 1.1em;
+      transition: transform 0.2s ease-in-out;
+  }
+
+  .dark-icon:hover {
+      color: rgb(216, 205, 205);
+      transform: scale(1.2);
+  }

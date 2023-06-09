@@ -1,0 +1,11 @@
+.nearby-link:hover {
+    background-color: rgb(9, 122, 31) !important;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.my-search input {
+    border-radius: 10px;
+    border: 1px solid #333;
+    padding: 10px;
+}

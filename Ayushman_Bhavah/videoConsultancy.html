@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Video Consultancy</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <!-- <header class="text-gray-600 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"  viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </svg>
+      <span class="ml-3 text-xl">MedUnited</span>
+    </a>
+    <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+      <a class="mr-5 hover:text-gray-900">Home</a>
+      <a class="mr-5 hover:text-gray-900">Find Hospital</a>
+      <a class="mr-5 hover:text-gray-900">Departments</a>
+      <a class="mr-5 hover:text-gray-900">Contact Us</a>
+    </nav>
+    <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Login/Signup
+      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+    </button>
+  </div>
+</header> -->
+<header class="text-gray-600 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 px-12 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </svg>
+      <span class="ml-3 text-xl">MedUnited</span>
+    </a>
+    <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex flex-wrap items-center text-base justify-center">
+      <a class="mr-5 hover:text-gray-900" href="./index.html">Home</a>
+      <!-- <a class="mr-5 hover:text-gray-900">Find Hospital</a> -->
+      <div class="group inline-block relative">
+        <button class="mr-5 hover:text-gray-900 flex-row focus:outline-none">
+          Departments
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1 transform group-hover:rotate-180 transition duration-300" viewBox="0 0 24 24">
+            <path d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        <ul class="absolute hidden text-gray-700 pt-1 group-hover:block">
+          <li><a class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Cardiology 🫀</a></li>
+          <li><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Neurology 🧠</a></li>
+          <li><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Pulmonology 🫁</a></li>
+          <li><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Orthopedic 🦴</a></li>
+          <li><a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Laboratory 🔬</a></li>
+        </ul>
+      </div>
+      <!-- <a class="mr-5 hover:text-gray-900 nav-link" href="#">Book an Appointment</a> -->
+      <a class="mr-5 hover:text-gray-900 nav-link" href="./videoConsultancy.html">Video Consultancy</a>
+      <a class="mr-5 hover:text-gray-900 nav-link" href="./medicine.html">Medicine Shop 🛒</a>
+      <a class="mr-5 hover:text-gray-900 nav-link" href="#">About</a>
+      <a class="mr-5 hover:text-gray-900 nav-link" href="#">Contact Us</a>
+      <a class="mr-5 hover:text-gray-900 nav-link" href="#">Help</a>
+      <!-- <a class="nav-link" href="#log-in">Log In</a> -->
+      <!-- <a class="mr-5 hover:text-gray-900">Contact Us</a> -->
+    </nav>
+    <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Login/Signup
+      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+    </button>
+  </div>
+</header>
+
+<section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-24 py-24 md:flex-row flex-col items-center">
+    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Elevate your care with video consultations
+        <br class="hidden lg:inline-block">anytime, anywhere.
+      </h1>
+      <p class="mb-8 leading-relaxed">Private consultation + Audio call · Starts at just ₹199.</p>
+      <div class="flex justify-center">
+        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Consult Now</button>
+      </div>
+    </div>
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <img class="object-cover object-center rounded" alt="hero" src="https://www.ihis.com.sg/Project_Showcase/covid-19/PublishingImages/ihis-teleconsultation-video-consultation-singapore-healthcare-covid-19.jpg">
+    </div>
+  </div>
+</section>
+<section class="text-gray-600 body-font">
+  <div class="container px-24 py-12 mx-auto">
+    <style>
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+    }
+    
+    .subheading {
+        font-size: 36px;
+        text-align: center;
+    }
+</style>
+    <div class="center">
+        <h2 class="subheading">Read top articles from health experts</h2></div>
+    <div class="flex flex-wrap -mx-4 -my-8">
+      <div class="py-8 px-4 lg:w-1/3">
+        <div class="h-full flex items-start">
+          <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+            <span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-200">Jul</span>
+            <span class="font-medium text-lg text-gray-800 title-font leading-none">18</span>
+          </div>
+          <div class="flex-grow pl-6">
+            <h2 class="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">CORONAVIRUS</h2>
+            <h1 class="title-font text-xl font-medium text-gray-900 mb-3">12 Coronavirus Myths and Facts That You Should Be Aware Of</h1>
+            <p class="leading-relaxed mb-5">Busting COVID-19 Misconceptions: Unmasking the Truth Behind the Myths!</p>
+            <a class="inline-flex items-center">
+              <img alt="blog" src="https://cdn3.vectorstock.com/i/1000x1000/86/82/love-doctor-vector-22468682.jpg" class="w-8 h-8 rounded-full flex-shrink-0 object-cover object-center">
+              <span class="flex-grow flex flex-col pl-3">
+                <span class="title-font font-medium text-gray-900">Dr.Diana Borgio</span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="py-8 px-4 lg:w-1/3">
+        <div class="h-full flex items-start">
+          <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+            <span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-200">Jul</span>
+            <span class="font-medium text-lg text-gray-800 title-font leading-none">18</span>
+          </div>
+          <div class="flex-grow pl-6">
+            <h2 class="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">DIABETES</h2>
+            <h1 class="title-font text-xl font-medium text-gray-900 mb-3">Healthy Eating with Diabetes: Crafting a Balanced Meal Plan</h1>
+            <p class="leading-relaxed mb-5">Nourish Your Body, Empower Your Health: Mastering a Balanced Meal Plan for Diabetes</p>
+            <a class="inline-flex items-center">
+              <img alt="blog" src="https://image.similarpng.com/very-thumbnail/2020/05/Beautiful-doctor-vector-illustration-PNG.png" class="w-8 h-8 rounded-full flex-shrink-0 object-cover object-center">
+              <span class="flex-grow flex flex-col pl-3">
+                <span class="title-font font-medium text-gray-900">Dr. Samantha Mitchell</span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="py-8 px-4 lg:w-1/3">
+        <div class="h-full flex items-start">
+          <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+            <span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-200">Jul</span>
+            <span class="font-medium text-lg text-gray-800 title-font leading-none">18</span>
+          </div>
+          <div class="flex-grow pl-6">
+            <h2 class="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">Musculoskeletal Health</h2>
+            <h1 class="title-font text-xl font-medium text-gray-900 mb-3">Easing the Pain: Treatment Options for Chronic Back Pain</h1>
+            <p class="leading-relaxed mb-5">Unlocking Relief: Discover Effective Treatments for Chronic Back Pain"</p>
+            <a class="inline-flex items-center">
+              <img alt="blog" src="https://img.freepik.com/free-vector/doctor-character-background_1270-84.jpg" class="w-8 h-8 rounded-full flex-shrink-0 object-cover object-center">
+              <span class="flex-grow flex flex-col pl-3">
+                <span class="title-font font-medium text-gray-900">Dr. Benjamin Williams</span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-900">
+    <div class="container mx-auto px-12 py-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="col-span-1 md:col-span-1">
+                <h4 class="text-white text-lg font-bold">Contact Us</h4>
+                <p class="text-gray-400 pt-4">177, Shinganshina, New Delhi<br>
+                    Delhi, India</p>
+                <p class="text-gray-400">Email: meraHospital@abcd.com</p>
+                <p class="text-gray-400">Phone: +91 9999999999</p>
+            </div>
+            <div class="col-span-1 md:col-span-1">
+                <h4 class="text-white text-lg font-bold">Office Location</h4>
+                <div class="h-48 py-4 md:h-72">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.230462938195!2d77.22950951508458!3d28.61289669188503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce422c6d0e21f%3A0xc8c5d154b75dbbdb!2sIndia%20Gate!5e0!3m2!1sen!2sin!4v1634140280244!5m2!1sen!2sin"
+                        width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""
+                        loading="lazy"></iframe>
+                </div>
+            </div>
+            <div class="col-span-1 md:col-span-1">
+                <div class="container mx-auto">
+                    <h4 class="text-white text-lg font-bold text-center">Connect with Us</h4>
+                    <ul class="flex justify-center my-4 space-x-4">
+                        <li>
+                            <a href="#"><i class="fab fa-facebook-f dark-icon text-white text-2xl"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-twitter dark-icon text-white text-2xl"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-instagram dark-icon text-white text-2xl"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-linkedin dark-icon text-white text-2xl"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!-- font awesome script -->
+    <!-- SCRIPT FOR FONTAWESOME -->
+
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>

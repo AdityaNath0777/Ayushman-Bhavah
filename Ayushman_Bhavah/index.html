@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayushman Bhavah</title>
+
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/chat.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+    <!-- Bootstrap CSS -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script> -->
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 px-12 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+                <span class="ml-3 text-xl my-heading-color">MedUnited</span>
+            </a>
+            <nav
+                class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 hover:text-gray-900" href="./index.html">Home</a>
+                <!-- <a class="mr-5 hover:text-gray-900">Find Hospital</a> -->
+                <div class="group inline-block relative">
+                    <button class="mr-5 hover:text-gray-900 flex-row focus:outline-none">
+                        Departments
+                        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2"
+                            class="w-4 h-4 ml-1 transform group-hover:rotate-180 transition duration-300"
+                            viewBox="0 0 24 24">
+                            <path d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block z-50">
+                        <li><a class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                                href="#">Cardiology 🫀</a></li>
+                        <li><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                                href="#">Neurology 🧠</a></li>
+                        <li><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                                href="#">Pulmonology 🫁</a></li>
+                        <li><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                                href="#">Orthopedic 🦴</a></li>
+                        <li><a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                                href="#">Laboratory 🔬</a></li>
+                    </ul>
+                </div>
+                <!-- <a class="mr-5 hover:text-gray-900 nav-link" href="#">Book an Appointment</a> -->
+                <a class="mr-5 hover:text-gray-900 nav-link" href="./videoConsultancy.html">Video Consultancy</a>
+                <a class="mr-5 hover:text-gray-900 nav-link" href="./medicine.html">Medicine Shop 🛒</a>
+                <a class="mr-5 hover:text-gray-900 nav-link" href="#">About</a>
+                <a class="mr-5 hover:text-gray-900 nav-link" href="#">Contact Us</a>
+                <a class="mr-5 hover:text-gray-900 nav-link" href="#">Help</a>
+                <!-- <a class="nav-link" href="#log-in">Log In</a> -->
+                <!-- <a class="mr-5 hover:text-gray-900">Contact Us</a> -->
+            </nav>
+            <button
+                class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Login/Signup
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+
+    <!-- Cover Page -->
+
+    <section class="container mt-5 mb-5">
+        <!-- <div class="container"> -->
+        <div class="flex flex-wrap">
+            <div class="w-full md:w-1/2 p-12">
+                <img src="./images/cover_img.jpeg" alt="Image" class="w-full h-auto cover-img">
+            </div>
+            <div class="w-full md:w-1/2 flex items-center">
+                <div class="w-10/12 md:w-10/12 mx-auto">
+                    <div class="heading mt-4">
+                        <h2 class="text-3xl md:text-5xl font-bold leading-tight">Welcome to our<br>Healthcare Platform
+                        </h2>
+                    </div>
+                    <div class="description mt-4 leading-relaxed">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod enim quis felis
+                            feugiat vulputate. Vestibulum sodales nunc in felis ultricies, vel tempus orci finibus. Sed
+                            sed dictum lacus.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod enim quis felis
+                            feugiat vulputate. Vestibulum sodales nunc in felis ultricies, vel tempus orci finibus. Sed
+                            sed dictum lacus.</p>
+                    </div>
+
+                    <div class="buttons mt-6 flex flex-wrap">
+                        <div class="appointment-btn w-full sm:w-1/2">
+                            <a href="#book-appointment-section"
+                                class="btn text-white text-lg py-2 px-4 rounded my-2 my-color-bg my-btn">Book an
+                                Appointment</a>
+                        </div>
+                        <div class="nearby-hospital-btn w-full sm:w-1/2">
+                            <a href="./nearby.html" class="btn bg-green-600 text-white text-lg py-2 px-4 rounded my-2 nearby-link">
+                                <i class="fas fa-search"></i> Nearby Hospitals
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+    </section>
+
+
+    <section id="book-appointment-section" class="my-12">
+        <div class="flex">
+            <div class="container col-md-4 ml-10">
+                <img src="./images/book_appointment.jpeg" alt="" class="w-full img-fluid justify-center">
+            </div>
+            <div class="container col-md-4 flex items-center">
+                <div class="w-10/12 md:w-10/12 mx-auto">
+                    <h2 class="text-3xl md:text-5xl font-bold leading-tight mb-5">Appointment Booking</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text"
+                                class="form-control mt-2 px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-indigo-500"
+                                id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email"
+                                class="form-control mt-2 px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-indigo-500"
+                                id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="hospital">Select a Hospital:</label>
+                            <select
+                                class="form-control mt-2 px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-indigo-500"
+                                id="hospital">
+                                <option>Search Nearby Hospitals</option>
+                                <option>Hospital 1</option>
+                                <option>Hospital 2</option>
+                                <option>Hospital 3</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="facility">Select a Facility:</label>
+                            <select
+                                class="form-control mt-2 px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-indigo-500"
+                                id="facility">
+                                <option>Select Facility</option>
+                                <option>Facility 1</option>
+                                <option>Facility 2</option>
+                                <option>Facility 3</option>
+                            </select>
+                        </div>
+                        <button type="submit"
+                            class="btn text-white text-lg py-2 px-4 rounded my-2 my-color-bg my-btn">Book
+                            Appointment</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="book-appointment-section" class="my-12">
+        <div class="flex">
+            <div class="container col-md-4 flex items-center ml-24  ">
+                <div class="w-10/12 md:w-10/12">
+                    <h2 class="text-3xl md:text-5xl font-bold leading-tight mb-5">Login</h2>
+                    <form>
+                        <div class="form-group">
+                          <label for="email">Email:</label>
+                          <input type="email" class="form-control mt-2 px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-indigo-500" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                          <label for="password">Password:</label>
+                          <input type="password" class="form-control mt-2 px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-indigo-500" id="password" placeholder="Enter your password">
+                        </div>
+                        <button type="submit" class="btn bg-blue-500 text-white text-lg py-2 px-4 rounded my-2 my-color-bg my-btn">Login</button>
+                      </form>
+                </div>
+            </div>
+            <div class="container col-md-4">
+                <img src="./images/login.jpeg" alt=""  class="w-2/3 img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="log-in" class="container mt-4 mb-5 mx-auto">
+        <div class="flex flex-wrap">
+          <div class="container col-md-4 md:w-1/2">
+            <h2 class="text-3xl font-bold leading-tight">Login</h2>
+            <form>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control mt-2 px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-indigo-500" id="email" placeholder="Enter your email">
+              </div>
+              <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" class="form-control mt-2 px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-indigo-500" id="password" placeholder="Enter your password">
+              </div>
+              <button type="submit" class="btn bg-blue-500 text-white text-lg py-2 px-4 rounded my-2">Login</button>
+            </form>
+          </div>
+          <div class="container col-md-4 md:w-1/2">
+            <img src="../cyber-imgs/cyberPolice.jpg" width="300px" height="250px" alt="">
+          </div>
+        </div>
+      </section> -->
+
+
+    <!-- <section id="log-in" class="container mt-4 mb-5">
+        <div class="row">
+            <div class="col-md-4 container">
+                <h2>Login</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                    </div>
+                    <button type="submit" class="btn btn-primary my-color-bg my-btn">Login</button>
+                </form>
+            </div>
+            <div class="container col-md-4">
+                <img src="../cyber-imgs/cyberPolice.jpg" width="300px" height="250px" alt="">
+            </div>
+        </div> -->
+    <!-- CHAT BAR BLOCK -->
+    <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible my-color-bg">Chat with us!
+            <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+        </button>
+
+        <div class="content">
+            <div class="full-chat-block">
+                <!-- Message Container -->
+                <div class="outer-container">
+                    <div class="chat-container">
+                        <!-- Messages -->
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                        </div>
+
+                        <!-- User input box -->
+                        <div class="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="textInput" class="input-box" type="text" name="msg"
+                                    placeholder="Tap 'Enter' to send a message">
+                                <p></p>
+                            </div>
+
+                            <div class="chat-bar-icons">
+                                <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                    onclick="heartButton()"></i>
+                                <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                    onclick="sendButton()"></i>
+                            </div>
+                        </div>
+
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <div class="container mx-auto py-8 px-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 ">
+                <div class="col-span-1 md:col-span-1 ">
+                    <h4 class="text-white text-lg font-bold">Contact Us</h4>
+                    <p class="text-gray-400 pt-4 ">177, Shinganshina, New Delhi<br>
+                        Delhi, India</p>
+                    <p class="text-gray-400">Email: meraHospital@abcd.com</p>
+                    <p class="text-gray-400">Phone: +91 9999999999</p>
+                </div>
+                <div class="col-span-1 md:col-span-1">
+                    <h4 class="text-white text-lg font-bold">Office Location</h4>
+                    <div class="h-48 py-4 md:h-72">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.230462938195!2d77.22950951508458!3d28.61289669188503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce422c6d0e21f%3A0xc8c5d154b75dbbdb!2sIndia%20Gate!5e0!3m2!1sen!2sin!4v1634140280244!5m2!1sen!2sin"
+                            width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""
+                            loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="col-span-1 md:col-span-1">
+                    <div class="container mx-auto">
+                        <h4 class="text-white text-lg font-bold text-center">Connect with Us</h4>
+                        <ul class="flex justify-center py-4 space-x-4">
+                            <li>
+                                <a href="#"><i class="fab fa-facebook-f dark-icon text-white text-2xl"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-twitter dark-icon text-white text-2xl"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-instagram dark-icon text-white text-2xl"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-linkedin dark-icon  text-white text-2xl"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <footer class="bg-dark">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-4">
+                    <h4>Contact Us</h4>
+                    <p>177, Shinganshina, New Delhi<br>
+                        Delhi, India</p>
+                    <p>Email: meraHospital@abcd.com</p>
+                    <p>Phone: +91 9999999999</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Office Location</h4>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.230462938195!2d77.22950951508458!3d28.61289669188503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce422c6d0e21f%3A0xc8c5d154b75dbbdb!2sIndia%20Gate!5e0!3m2!1sen!2sin!4v1634140280244!5m2!1sen!2sin"
+                        width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-md-4">
+                    <div class="container">
+
+                        <h4 class="text-center">Connect with Us</h4>
+                        <ul class="list-inline text-center">
+                            <li class="list-inline-item">
+                                <a href="#"><i class="fab fa-facebook-f dark-icon"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#"><i class="fab fa-twitter dark-icon"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#"><i class="fab fa-instagram dark-icon"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#"><i class="fab fa-linkedin dark-icon"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+
+
+
+    <!-- font awesome script -->
+    <!-- SCRIPT FOR FONTAWESOME -->
+
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <!-- Google API -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Our Scripts -->
+    <script src="./js/responses.js"></script>
+    <script src="./js/chatBot.js"></script>
+    <script src="./js/nearbyHosp.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

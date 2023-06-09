@@ -1,0 +1,90 @@
+{
+    "featuredProducts": [
+        {
+            "id": "1",
+            "name": "Hair serum",
+            "image": "./medicine_files/imgs/hair1.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "price": "₹119.99",
+            "keywords": [
+                "hair",
+                "beautiful"
+            ]
+        },
+        {
+            "id": "2",
+            "name": "skin tone",
+            "image": "./medicine_files/imgs/skin1.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "price": "₹124.99",
+            "keywords": [
+                "skin",
+                "beautiful"
+            ]
+        },
+        {
+            "id": "3",
+            "name": "migraine relief",
+            "image": "./medicine_files/imgs/head1.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "price": "₹114.99",
+            "keywords": [
+                "headache"
+            ]
+        },
+        {
+            "id": "4",
+            "name": "easy digestion",
+            "image": "./medicine_files/imgs/st1.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "price": "₹129.99",
+            "keywords": [
+                "stomach",
+                "stomach ache"
+            ]
+        },
+        {
+            "id": "5",
+            "name": "fair and clum",
+            "image": "./medicine_files/imgs/skin2.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "price": "₹339.99",
+            "keywords": [
+                "skin",
+                "beautiful"
+            ]
+        },
+        {
+            "id": "6",
+            "name": "hair oil",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "price": "₹139.99",
+            "image": "./medicine_files/imgs/hair2.jpg",
+            "keywords": [
+                "hair",
+                "beautiful"
+            ]
+        },
+        {
+            "id": "7",
+            "name": "mast pachan",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "price": "₹149.99",
+            "image": "./medicine_files/imgs/st2.jpg",
+            "keywords": [
+                "stomach",
+                "stomach ache"
+            ]
+        },
+        {
+            "id": "8",
+            "name": "khich khich door",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "price": "₹259.99",
+            "image": "./medicine_files/imgs/head2.jpg",
+            "keywords": [
+                "headache"
+            ]
+        }
+    ]
+}
